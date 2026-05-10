@@ -1,68 +1,88 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🏦 DepositoKu
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+**DepositoKu** adalah platform edukasi dan simulasi investasi deposito yang membantu pengguna merencanakan keuangan mereka dengan lebih baik. Website ini memungkinkan pengguna untuk membandingkan suku bunga dari berbagai bank dan menghitung proyeksi keuntungan deposito secara akurat dan transparan.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## ✨ Fitur Utama (Key-Driven Features)
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+* **🧮 Simulasi Deposito Cerdas:** Hitung proyeksi keuntungan berdasarkan nominal, jangka waktu (tenor), dan suku bunga bank yang dipilih. Sistem otomatis menghitung estimasi bunga yang diterima dan total saldo akhir.
+* **🏢 Direktori Bank Lengkap:** Jelajahi berbagai pilihan bank beserta informasi *suku bunga dasar* (base rate) terkini yang ditawarkan.
+* **📖 Artikel & Literasi Finansial:** Tingkatkan pemahaman tentang investasi, deposito, dan perencanaan keuangan melalui kumpulan artikel informatif yang terintegrasi.
+* **🔐 Manajemen Akun:** Pengguna dapat mendaftar dan masuk ke dalam sistem untuk menyimpan riwayat simulasi yang telah dilakukan secara aman.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 🚀 Keunggulan Fitur
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+* **Antarmuka Intuitif:** Desain UI/UX yang modern, bersih, dan responsif, memastikan kenyamanan penggunaan di berbagai ukuran layar (Mobile, Tablet, Desktop).
+* **Perbandingan Mudah:** Memudahkan pengguna membandingkan potensi keuntungan antar bank dalam satu tempat tanpa harus mengunjungi situs masing-masing bank.
+* **Akurasi Perhitungan:** Menggunakan formula perhitungan deposito standar untuk memberikan estimasi imbal hasil yang mendekati realita.
+* **Pengalaman Terpersonalisasi:** Dengan fitur manajemen pengguna (User/Auth), setiap orang memiliki rekam jejak simulasi finansial mereka sendiri.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 💡 Kebermanfaatan
 
-## Laravel Sponsors
+1. **Untuk Calon Investor / Masyarakat Umum:** Membantu pemula untuk memahami skema imbal hasil deposito sebelum menyetorkan uangnya ke instansi perbankan.
+2. **Alat Perencanaan Keuangan (Financial Planning):** Menjadi *tools* praktis bagi siapa saja yang sedang merencanakan target keuangan jangka pendek hingga menengah.
+3. **Edukasi Inklusif:** Mendorong dan meningkatkan literasi keuangan masyarakat Indonesia melalui edukasi instrumen investasi minim risiko.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠️ Implementasi Teknis & Tech Stack
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+Aplikasi ini dikembangkan menggunakan arsitektur *Modern Monolith* yang kokoh, berfokus pada kecepatan pengembangan, performa rendering, dan keamanan.
 
-## Contributing
+**Tech Stack:**
+* **Backend:** [Laravel 11](https://laravel.com/) (PHP 8.2+) - *Framework backend tangguh untuk routing, session, dan logika bisnis.*
+* **Frontend UI:** [Tailwind CSS 3](https://tailwindcss.com/) & [Flowbite](https://flowbite.com/) - *Utility-first CSS framework untuk styling komponen UI yang cepat dan konsisten.*
+* **Interaktivitas:** [Alpine.js](https://alpinejs.dev/) - *Lightweight JavaScript framework untuk mengelola state UI di sisi klien (dropdown, modal).*
+* **Database:** Relasional DB (MySQL / PostgreSQL / SQLite) via Eloquent ORM.
+* **Build Tool:** [Vite](https://vitejs.dev/) - *Frontend tooling masa kini untuk Hot Module Replacement (HMR) dan asset bundling.*
+* **Authentication:** Laravel Breeze - *Starter kit scaffolding autentikasi yang aman.*
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+**Implementasi Teknis:**
+* **Arsitektur MVC:** Memisahkan dengan jelas antara pengolahan data (Model), antarmuka (View), dan logika aplikasi (Controller).
+* **Eloquent Relationships:** Mengelola integritas relasi antar entitas secara efisien (Misal: Relasi *One-to-Many* antara entitas `Bank` dan `Simulation`, serta `User` dan `Simulation`).
+* **Responsive & Mobile-First:** Antarmuka dibangun dengan kelas utilitas Tailwind memastikan layout dapat beradaptasi secara dinamis terhadap ukuran layar pengguna (responsiveness).
 
-## Code of Conduct
+---
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## ⚙️ Cara Instalasi (Local Development)
 
-## Security Vulnerabilities
+Jika Anda ingin menjalankan dan mengembangkan proyek ini secara lokal, ikuti langkah-langkah berikut:
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+1. **Clone repository ini:**
+   ```bash
+   git clone <repo-url>
+   cd db_deposito_nabil
+   ```
 
-## License
+2. **Install dependensi PHP (Composer) dan JavaScript (NPM):**
+   ```bash
+   composer install
+   npm install
+   ```
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# DepositoKu
-# DepositoKu
+3. **Konfigurasi Environment:**
+   Salin file `.env.example` menjadi `.env` dan hasilkan application key:
+   ```bash
+   cp .env.example .env
+   php artisan key:generate
+   ```
+   *(Pastikan pengaturan koneksi database di file `.env` sudah sesuai dengan environment lokal Anda)*
+
+4. **Jalankan Migrasi Database:**
+   ```bash
+   php artisan migrate
+   ```
+
+5. **Jalankan Development Server:**
+   Anda dapat menggunakan perintah bawaan Laravel & Vite:
+   ```bash
+   npm run dev
+   # (di tab terminal baru)
+   php artisan serve
+   ```
+   *Atau jalankan secara paralel dengan:* `npm run dev` (karena package.json sudah diatur menggunakan concurrently).
